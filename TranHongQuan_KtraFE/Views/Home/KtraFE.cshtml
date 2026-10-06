@@ -1,0 +1,92 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>KtraFE</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <style type="text/css">
+        .container {
+            width: 100%
+        }
+        .header {
+            background: #09222e;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px 15px;
+        }
+        .header input {
+            flex: 1;
+            height: 30px;
+            padding: 0 10px;
+            border: none;
+        }
+        .header button {
+            background: #eaeaea;
+            height: 30px;
+            padding: 50px;
+            width: 45px;
+            border: none;
+        }
+        .body {
+            background: #eaeaea;
+            background-color: #0b5d81;
+            font-family: Arial, sans-serif, 'Times New Roman';
+        }
+        .footer {
+            background: #09222e;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a class="logo" href="https://www.amazon.com/"><img src="~/Content/img/logo.jpg" height="30" /></a>
+            <span>Deliver to NGUYEN<br />Hochiminh...70000</span>
+            <input type="text" placeholder="Search Amazon" maxlength="50" />
+            <select name="items" id="items">
+                <option value="all">All</option>
+                <option value="automotive">Automotive</option>
+                <option value="baby">Baby</option>
+                <option value="deals">Deals</option>
+            </select>
+            <span>EN</span>
+            <span>Account &amp; Lists</span>
+            <span>Returns &amp; Orders</span>
+            <span><i class="fa-solid fa-cart-shopping"></i>Cart</span>
+        </div>
+        <div class="body">
+            <nav>
+                <a href="#">All</a>
+                <a href="#">Prime Video</a>
+                <a href="#">Coupons</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Today's Deals</a>
+                <a href="#">Registry</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Sell</a>
+            </nav>
+
+        <div class="content">
+            <section class="cards">
+                <section class="card">
+
+                </section>
+            </section>
+        </div>   
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
